@@ -22,6 +22,8 @@ public class PetDBHelper extends SQLiteOpenHelper {
             "gender INTEGER NOT NULL," +
             "weight INTEGER NOT NULL DEFAULT 0)";
 
+    private static final String SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS "+ PetContract.PetEntry.TABLE_NAME;
+
     public PetDBHelper (Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -33,8 +35,15 @@ public class PetDBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        db.execSQL(SQL_DELETE_ENTRIES);
+        onCreate(db);
     }
 
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion){
+        onUpgrade(db, oldVersion, newVersion);
+    }
+//cursor adapter -- 1. constructor 2.
+    //bindview view & data
 
 }

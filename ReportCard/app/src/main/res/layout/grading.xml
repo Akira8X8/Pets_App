@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:id="@+id/textBox"
+        android:layout_toRightOf="@id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        >
+
+        <TextView
+            android:id="@+id/subject_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Homework" />
+
+        <TextView
+            android:id="@+id/grade_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="A+" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_play_arrow_white_24dp"
+        />
+
+</RelativeLayout>

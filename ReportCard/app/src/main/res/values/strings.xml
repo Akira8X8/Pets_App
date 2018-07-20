@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+    <string name="name">Billy Jo</string>
+    <string name="math">Math</string>
+    <string name="english">English</string>
+    <string name="art">Art</string>
+    <string name="science">Science</string>
+</resources>

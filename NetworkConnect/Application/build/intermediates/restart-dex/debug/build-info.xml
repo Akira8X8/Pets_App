@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="17"
+    density="mdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="629212995664197"
+    token="1901088895623280757"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="994" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="400" />
+    <task
+        name="verifier"
+        duration="108" />
+
+    <artifact
+        location="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\outputs\apk\Application-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="629212995664197"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\outputs\apk\Application-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

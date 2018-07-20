@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="baron_question">Also known as the Red Baron, he was the leading ace of WWI, achieving 80 victories before being shot down in 1918.</string>
+    <string name="ants_question">Ants stretch when they wake up in the morning.</string>
+    <string name="baron_b">B. Manfred von Richthofen</string>
+    <string name="baron_a">A. Hermann Göring</string>
+    <string name="baron_c">C. Charles Lindbergh</string>
+    <string name="baron_d">D. Howard Hughes</string>
+    <string name="eu_question">Which nations are member states of the European Union?</string>
+    <string name="it">Italy</string>
+    <string name="swz">Switzerland</string>
+    <string name="ic">Iceland</string>
+    <string name="bl">Belarus</string>
+    <string name="lx">Luxembourg</string>
+    <string name="cy">Cyprus</string>
+    <string name="lt">Lithuania</string>
+    <string name="sha">Short Answer Response</string>
+    <string name="decl_q">Who was the oldest person to sign the Declaration of Independence?</string>
+</resources>

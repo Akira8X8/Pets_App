@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="48dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/textBox"
+        style="@style/captionBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/magnitude"
+            android:background="@drawable/magnitude_circle"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="8.9"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/location1"
+                style="@style/captionBox"
+                tools:text="Location1" />
+
+            <TextView
+                android:id="@+id/location2"
+                style="@style/captionBox"
+                tools:text="Location2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/captionBox"
+                tools:text="MM dd, yyyy" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/captionBox"
+                tools:text="Time"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

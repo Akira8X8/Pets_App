@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="48dp"
+    >
+
+    <ImageView
+        android:id="@+id/pic"
+        style="@style/exhibit"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"
+        android:drawSelectorOnTop="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/textBox"
+        android:layout_below="@id/pic"
+        style="@style/captionBox"
+        android:drawSelectorOnTop="true"
+        >
+
+        <TextView
+            android:id="@+id/exhibit_view"
+            style="@style/captionText"
+            tools:text="Exhibit name" />
+
+        <TextView
+            android:id="@+id/caption_view"
+            style="@style/captionText"
+            tools:text="Short description/caption" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

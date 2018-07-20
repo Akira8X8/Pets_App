@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_freq_options">
+        <item>@string/freq_normal</item>
+        <item>@string/freq_often</item>
+        <item>@string/freq_rare</item>
+    </string-array>
+
+    <string-array name="array_when_options">
+        <item>@string/when_morning</item>
+        <item>@string/when_afternoon</item>
+        <item>@string/when_evening</item>
+    </string-array>
+</resources>

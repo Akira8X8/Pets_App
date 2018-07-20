@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.reportcard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReportActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MathActivity"
+            android:label="@string/math" />
+        <activity
+            android:name=".EnglishActivity"
+            android:label="@string/english" />
+        <activity
+            android:name=".ArtActivity"
+            android:label="@string/art" />
+        <activity
+            android:name=".ScienceActivity"
+            android:label="@string/science" />
+    </application>
+
+</manifest>

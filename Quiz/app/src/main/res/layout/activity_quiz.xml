@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff51b46d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.quiz.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ff51b46d"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:text="Trivia Quiz!"
+                style="@style/wrap"
+                android:padding="8dp"
+                android:textSize="48sp"
+                android:textColor="#80ffffff" />
+
+            <TextView
+                android:id="@+id/scoreLabel"
+                style="@style/wrap"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:text="Score"/>
+
+            <TextView
+                android:id="@+id/score"
+                style="@style/wrap"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/scoreLabel"
+                android:layout_marginRight="8dp"
+                android:textSize="56sp"
+                android:textColor="@android:color/black"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/antquestion"
+                style="@style/wrap"
+                android:layout_margin="24dp"
+                android:text="@string/ants_question"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/title"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                />
+
+            <LinearLayout
+                style="@style/horizontalChild"
+
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/antquestion"
+                >
+
+                <Button
+                    android:id="@+id/trueButton"
+                    style="@style/buttons"
+                    android:text="True"
+                    android:onClick="correctTF"
+                    />
+
+                <Button
+                    android:id="@+id/falseButton"
+                    style="@style/buttons"
+                    android:text="False"
+                    android:onClick="incorrect"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff51b46d"
+            >
+
+
+            <TextView
+                android:id="@+id/baronQuestion"
+                style="@style/wrap"
+                android:layout_margin="24dp"
+                android:text="@string/baron_question"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:textColor="@android:color/white" />
+
+            <RadioGroup
+                android:id="@+id/baronAnswers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/baronQuestion"
+                android:orientation="vertical">
+
+                <RadioButton android:id="@+id/A"
+                    android:layout_width="wrap_content"
+                    style="@style/box"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baron_a"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton android:id="@+id/B"
+                    style="@style/box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baron_b"
+                    android:onClick="onRadioButtonClicked"
+                    />
+
+                <RadioButton android:id="@+id/C"
+                    style="@style/box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baron_c"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton android:id="@+id/D"
+                    style="@style/box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baron_d"
+                    android:onClick="onRadioButtonClicked"/>
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff51b46d"
+            >
+
+            <TextView
+                android:id="@+id/EUquestion"
+                style="@style/wrap"
+                android:layout_margin="24dp"
+                android:text="@string/eu_question"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ff51b46d"
+                android:layout_below="@id/EUquestion"
+
+
+                >
+                <CheckBox
+                    android:id="@+id/it"
+                    android:text="@string/it"
+                    style="@style/box"
+                    android:onClick="itChecked"
+                    />
+                <CheckBox
+                    android:id="@+id/lt"
+                    android:text="@string/lt"
+                    style="@style/box"
+                    android:onClick="ltChecked"
+                    />
+                <CheckBox
+                    android:id="@+id/bl"
+                    android:text="@string/bl"
+                    style="@style/box"
+                    android:onClick="blChecked"
+                    />
+                <CheckBox
+                    android:id="@+id/cy"
+                    android:text="@string/cy"
+                    style="@style/box"
+                    android:onClick="cyChecked"
+                    />
+
+                <CheckBox
+                    android:id="@+id/ic"
+                    android:text="@string/ic"
+                    style="@style/box"
+                    android:onClick="icChecked"
+                    />
+
+                <CheckBox
+                    android:id="@+id/lx"
+                    android:text="@string/lx"
+                    style="@style/box"
+                    android:onClick="lxChecked"
+                    />
+
+                <CheckBox
+                    android:id="@+id/sw"
+                    android:text="@string/swz"
+                    style="@style/box"
+                    android:onClick="swChecked"
+                    />
+
+                <Button
+                android:id="@+id/submitEU"
+                android:text="Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="check"
+                />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ff51b46d"
+            >
+
+
+            <TextView
+                android:id="@+id/oldQuestion"
+                style="@style/wrap"
+                android:layout_margin="24dp"
+                android:text="@string/decl_q"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@id/oldQuestion"
+                >
+
+                <EditText
+                    android:id="@+id/decAnswer"
+                    android:hint="@string/sha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:inputType="textCapWords"
+                    android:imeOptions="actionDone"
+                    />
+
+                <Button
+                    android:id="@+id/submitDec"
+                    android:text="Submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="benCheck"
+                    />
+
+                <Button
+                    android:id="@+id/finish"
+                    android:text="Finish and grade!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="skip"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

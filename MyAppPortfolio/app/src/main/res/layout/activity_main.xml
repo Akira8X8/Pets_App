@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+
+        android:textColor="#2E3D49"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/movies"
+        style="@style/introButtons"
+        android:text="@string/movies" />
+
+    <TextView
+        android:id="@+id/stock"
+        style="@style/introButtons"
+        android:text="@string/stock" />
+
+    <TextView
+        android:id="@+id/bigger"
+        style="@style/introButtons"
+        android:text="@string/bigger" />
+
+    <TextView
+        android:id="@+id/material"
+        style="@style/introButtons"
+        android:text="@string/material" />
+
+    <TextView
+        android:id="@+id/ubi"
+        style="@style/introButtons"
+        android:text="@string/ubi" />
+
+    <TextView
+        android:id="@+id/cap"
+        style="@style/introButtons"
+        android:text="@string/cap" />
+
+    <Button
+        android:id="@+id/play"
+        style="@style/introButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"/>
+
+    <Button
+        android:id="@+id/pause"
+        style="@style/introButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/volUp"
+            style="@style/introButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <Button
+            android:id="@+id/volDn"
+            style="@style/introButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

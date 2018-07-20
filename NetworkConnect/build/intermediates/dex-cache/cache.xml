@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a5380ddd58f4f8946ddade4c64dd77de4a836d5">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-24.1.1_a095d534d0313b3325784eef4921335abe83bde6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_a2f0897143d001e0a6ca752120b2a2485e8475d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_66e01cf28efee5e55ecbaf5a1ce23711cb249eed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5e5d8ec96b86651982f69e06aa368d022d1b9199">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\instant-run-bootstrap_12a1db455f810a274959ec21d7755ffb8d5050a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="96777f5f1c87f673ed95b447b21a3c1ea6e4f6aa">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\instant-run_7d57709996acda69683743bac38e8a0a08b84feb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_42896dd7d7104ca662f924b9dfbee474c1ec37c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_6861fffab63e0aa8582f05b8a8e34239abbe3e73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.1.1_a2f04ed7e7fcc20a88dfbe552bf167a75868c0c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_cf6d6f74874386801f403248f644e92846b6cf11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\Zed\Desktop\ProgPrac\Udacity Projects\NetworkConnect\Application\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_65e7269cc093251359b928d3efc8d4bb0afb3aa6.jar" />
+    </item>
+
+</items>
